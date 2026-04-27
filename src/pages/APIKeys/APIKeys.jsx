@@ -157,14 +157,14 @@ const APIKeys = () => {
 GET https://your-api.com/users
 
 # Route through CyberShield:
-GET http://localhost:3000/api/protect/users
+GET https://cyber-shield-sage.vercel.app/api/protect/users
 Headers:
   x-api-key: ${apiKey || "<your-key-here>"}`}</pre>
 
           <div style={{ fontSize: 11, color: "var(--text3)", fontFamily: "monospace", marginBottom: 12, textTransform: "uppercase", letterSpacing: 1 }}>
             2. .env file for this frontend
           </div>
-          <pre style={{ background: "var(--bg0)", border: "1px solid var(--border)", borderRadius: 6, padding: "12px 14px", fontSize: 11, color: "#00ff88", fontFamily: "monospace", marginBottom: 16, lineHeight: 1.7 }}>{`REACT_APP_API_URL=http://localhost:3000/api
+          <pre style={{ background: "var(--bg0)", border: "1px solid var(--border)", borderRadius: 6, padding: "12px 14px", fontSize: 11, color: "#00ff88", fontFamily: "monospace", marginBottom: 16, lineHeight: 1.7 }}>{`REACT_APP_API_URL=https://cyber-shield-sage.vercel.app/api
 REACT_APP_API_KEY=${apiKey || "<your-key-here>"}`}</pre>
 
           <div style={{ fontSize: 11, color: "var(--text3)", fontFamily: "monospace", marginBottom: 12, textTransform: "uppercase", letterSpacing: 1 }}>

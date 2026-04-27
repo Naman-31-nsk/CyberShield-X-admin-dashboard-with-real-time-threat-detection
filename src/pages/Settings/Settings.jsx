@@ -37,7 +37,7 @@ const Settings = () => {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
         <Panel title="Backend Config" tag="READ-ONLY REFERENCE">
           <SectionLabel>Current Connection</SectionLabel>
-          <SettingsField label="API Base URL"   defaultValue={process.env.REACT_APP_API_URL || "http://localhost:3000/api"} mono />
+          <SettingsField label="API Base URL"   defaultValue={process.env.REACT_APP_API_URL || "https://cyber-shield-sage.vercel.app/api"} mono />
           <SettingsField label="Active API Key" defaultValue={apiKey || "Not set — go to API Keys page"} mono />
           <SettingsField label="Target URL"     defaultValue={targetUrl || "Not set"} mono />
 
